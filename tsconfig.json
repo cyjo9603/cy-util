@@ -1,9 +1,19 @@
 {
   "compilerOptions": {
     "strict": true,
-    "target": "es6",
-    "module": "commonjs",
-    "lib": ["dom", "dom.iterable", "esnext", "es2015", "es2016", "es2017", "es2018", "es2019", "es2020", "ES2021"],
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018",
+      "es2019",
+      "es2020",
+      "ES2021"
+    ],
     "moduleResolution": "node",
     "allowJs": false,
     "emitDecoratorMetadata": true,
@@ -11,5 +21,6 @@
     "esModuleInterop": true
   },
   "include": ["src"],
+  "exclude": ["dist/*", "rollup.config.js"],
   "extends": "./tsconfig.paths.json"
 }
