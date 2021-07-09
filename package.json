@@ -1,9 +1,10 @@
 {
   "name": "cy-util",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/cyjo9603/cy-util.git",
-  "author": "chanyeong-cho <cyjo9603@naver.com>",
+  "author": "cyjo9603 <cyjo9603@naver.com>",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec ts-node -r tsconfig-paths/register ./src/index.ts",
