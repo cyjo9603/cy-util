@@ -21,5 +21,17 @@ module.exports = {
       typescript: {},
     },
   },
-  rules: {},
+  rules: {
+    'import/prefer-default-export': 'never',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+  },
 };
