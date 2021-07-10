@@ -1,1 +1,1 @@
-export { isArray, isObject, isPromise, isString } from './is';
+export { isArray, isNull, isObject, isPromise, isString } from './is';
