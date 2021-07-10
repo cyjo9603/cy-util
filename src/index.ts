@@ -1,1 +1,1 @@
-export { isString, isObject } from './is';
+export { isObject, isPromise, isString } from './is';
