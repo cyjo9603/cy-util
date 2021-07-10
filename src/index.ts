@@ -4,6 +4,7 @@ export {
   isFunction,
   isIterable,
   isNull,
+  isNumber,
   isObject,
   isPromise,
   isString,
