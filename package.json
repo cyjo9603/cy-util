@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/cyjo9603/cy-util.git",
-  "author": "cyjo9603 <cyjo9603@naver.com>",
+  "author": "Chanyeong Cho <cyjo9603@gmail.com>",
   "license": "MIT",
   "keywords": [
     "chanyeong",
@@ -12,6 +12,9 @@
     "cy",
     "util"
   ],
+  "bugs": {
+    "email": "cyjo9603@gmail.com"
+  },
   "scripts": {
     "dev": "nodemon --exec ts-node -r tsconfig-paths/register ./src/index.ts",
     "build": "rollup -c"
