@@ -13,7 +13,7 @@ const extensions = ['.js', '.ts'];
 export default [
   {
     input: 'src/index.ts',
-    output: [{ file: 'dist/index.js', format: 'cjs' }],
+    output: [{ file: 'dist/index.js', format: 'esm' }],
 
     plugins: [
       alias({
